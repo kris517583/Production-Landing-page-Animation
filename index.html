@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+
+  <link href="favico.png" rel="icon">
+  <link href="logo192.png" rel="apple-touch-icon">
+  <link href="CSS/style.css" rel="stylesheet">
+  <title>Rolecall Product Landing page</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+</head>
+<body>
+
+<button type="button" id="burger" class="mobile-nav-toggle" onclick="menushow()" ><i class="material-icons" style="font-size: 40px;font-weight: bolder" id="menuicon" >menu</i></button>
+
+<header id="header">
+	<div class="container">
+		<a href="index.html"><img id="header-img" src="himg.png" alt="" class="img-fluid"></a>
+		<nav id="nav-bar" class="drop">
+		<ul>
+          <li><a class="nav-link active" href="#emailsection" onclick="mobnav()">Home</a></li>
+          <li><a class="nav-link" href="#featuresection" onclick="mobnav()">Features</a></li>
+          <li><a class="nav-link" href="#videosection" onclick="mobnav()">About us</a></li>
+          <li><a class="nav-link" href="#pricesection" onclick="mobnav()">Pricing</a></li>
+        </ul>
+		</nav>
+		<div id="social-links">
+        <a><i class="fa fa-twitter"></i></a>
+        <a><i class="fa fa-facebook"></i></a>
+        <a><i class="fa fa-instagram"></i></a>
+        <a><i class="fa fa-linkedin"></i></a>
+    	</div>
+	</div>
+	<div id="navbar-overly" style="display:none;"></div>
+</header>
+<main>
+<section id="emailsection">
+	<div class="section-title" data-aos="zoom-in"><h2 style="color: #4d4643;margin-top:100px">Choose your children's best carrer path here</strong></h2></div>
+	<h2 class="section-heading"style="color: #4d4643" data-aos="fade-up" data-aos-delay="800">Its a beatuiful thing when Carrer and Passion come together</h2>
+	<form id="form" action="https://www.freecodecamp.com/email-submit" data-aos="fade-up" data-aos-delay="1200">
+      <input name="email" id="email" type="email" placeholder="Enter your email address" required="">
+      <input id="submit" type="submit" value="Get Started" class="btn">
+    </form>
+</section>
+
+<section id="featuresection" class="section-bg">
+	<div class="section-container">
+	<div class="section-title" data-aos="zoom-in"><h2 style="color: #4d4643">Why RoleCall!</strong></h2></div>
+	<div id="card-container">
+		<div class="cols" data-aos="fade-up" data-aos-delay="800">
+            <div class="box">
+              <div class="icon"><i class="material-icons" style="transform: rotate(90deg);color: #ff5828">theaters</i></div>
+              <h4>Bridge between passion and profession</h4>
+              <p>When Passion and Profession meets it creates history.</p>
+            </div>
+		</div>
+		<div class="cols mmt" data-aos="fade-up" data-aos-delay="1000">
+            <div class="box">
+              <div class="icon"><i class="material-icons" style="color: #ffbb2c">model_training</i></div>
+              <h4>Clarify your carrer goals</h4>
+              <p>Career development is a lifelong process.So,career counselling is appropriate for everyone.</p>
+            </div>
+		</div>
+		<div class="cols mmmt" data-aos="fade-up" data-aos-delay="1200">
+            <div class="box">
+              <div class="icon"><i class="material-icons" style="color: #cc9966">accessibility_new</i></div>
+              <h4>Gain support from an objective guide</h4>
+              <p>A career counsellor offers unbiased insights, information, expertise and advice, thus enabling you to figure out who you are and what you want from your career.</p>
+            </div>
+		</div>
+		<div class="cols mt" data-aos="fade-up" data-aos-delay="800">
+            <div class="box">
+              <div class="icon"><i class="material-icons" style="color: #e80368">health_and_safety</i></div>
+              <h4>Safe and Secure</h4>
+              <p>A safe and casual environment is created where you feel at ease discussing your career, without any limitations.</p>
+            </div>
+		</div>
+		<div class="cols mt" data-aos="fade-up" data-aos-delay="1000">
+            <div class="box">
+              <div class="icon"><i class="material-icons" style="color: #47aeff">insights</i></div>
+              <h4>Broaden your perspective</h4>
+              <p>The right career counsellor will help you to strategise your career and provide a long-term perspective that helps you to achieve your career goals faster.</p>
+            </div>
+		</div>
+		<div class="cols mt" data-aos="fade-up" data-aos-delay="1200">
+            <div class="box">
+              <div class="icon"><i class="material-icons" style="color: #15b595">price_check</i></div>
+              <h4>Capitalise on a range of resources</h4>
+              <p>With the support of your career counsellor, you’ll be able to determine which areas you need to focus on and will have access to career workshops and other resources.</p>
+            </div>
+		</div>
+	</div>
+	</div>
+</section>
+<section id="videosection">
+	<div class="section-title" data-aos="zoom-in"><h2 style="color: #4d4643">About us</strong></h2></div>
+	<div class="section-container" data-aos="fade-up" data-aos-delay="1200">
+	<iframe id="video"src="https://www.youtube.com/embed/lqTFwVQWEe8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
+	</div>
+</section>
+<section id="pricesection" class="section-bg">
+	<div class="section-container">
+	<div class="section-title" data-aos="zoom-in"><h2 style="color: #4d4643">Pricing</strong></h2></div>
+	<div id="card-container">
+		<div class="cols" data-aos="fade-up" data-aos-delay="800">
+            <div class="box" style="width: 100%;padding: 0px 0px 80px 0px;">
+              <h4 style="margin:0px 0 15px 0;padding: 30px; background:rgb(179,179,179,0.3);color:#fc748d">Basic</h4>
+              <p>1 month subcription</p>
+              <h4>₹ 1000</h4>
+              <button>Select plan</button>
+            </div>
+		</div>
+		<div class="cols mmt" data-aos="fade-up" data-aos-delay="1000">
+              <div class="box" style="width: 100%;padding: 0px 0px 80px 0px;">
+              <h4 style="margin:0px 0 15px 0;padding: 30px; background:rgb(179,179,179,0.3);color:#fc748d">VIP</h4>
+              <p>3 month subcription</p>
+              <h4>₹ 2000</h4>
+              <button>Select plan</button>
+            </div>
+		</div>
+		<div class="cols mmmt price" data-aos="fade-up" data-aos-delay="1200">
+            <div class="box" style="width: 100%;padding: 0px 0px 80px 0px;">
+              <h4 style="margin:0px 0 15px 0;padding: 30px; background:rgb(179,179,179,0.3);color:#fc748d">Premium</h4>
+              <p>6 month subcription</p>
+              <h4>₹ 4000</h4>
+              <button>Select plan</button>
+            </div>
+		</div>
+	</div>
+	</div>
+</section>
+</main>
+<footer id="footer">
+	<div class="footer-container">
+	<div class="copyright">
+    <div>&copy;Copyright <strong><span>Company</span></strong>. All Rights Reserved</div>
+    <div style="padding-top:5px;display:block">
+      Designed by <a style="color:#fc748d;cursor:pointer">Rolecall team</a>
+    </div>
+	</div>
+	<div>
+    <ul>
+    	<li><a>Privacy</a></li>
+    	<li><a>Terms</a></li>
+    </ul>
+	</div>
+	<div class="contact">
+	    <a><i class="fa fa-twitter"></i></a>
+		<a><i class="fa fa-facebook"></i></a>
+		<a><i class="fa fa-instagram"></i></a>
+		<a><i class="fa fa-linkedin"></i></a>
+	</div>
+</footer>
+<script type="text/javascript">
+	function menushow()
+	{
+		if(document.getElementById("menuicon").innerText=="menu")
+		{
+			document.getElementById("navbar-overly").id="navbar-overly-active";
+			document.getElementById("nav-bar").className="drop-active";
+			document.getElementById("nav-bar").style.display="block";
+			document.getElementById("menuicon").innerText="close";	
+		}
+		else
+		{
+			document.getElementById("navbar-overly-active").id="navbar-overly";
+			document.getElementById("nav-bar").className="drop";
+			document.getElementById("nav-bar").style.display="none";
+			document.getElementById("menuicon").innerText="menu";	
+		}
+	}
+
+	function mobnav()
+	{
+		if(document.getElementById("menuicon").innerText=="close")
+		{
+			menushow();
+		}
+	}
+	let mainNavLinks = document.querySelectorAll(".nav-link");
+	let mainSections = document.querySelectorAll("main section");
+
+	window.addEventListener("scroll", event => 
+	{
+	  let fromTop = window.scrollY - 50;
+	  mainNavLinks.forEach(link => 
+	  {
+	    let section = document.querySelector(link.hash);
+
+	    if (section.offsetTop <= fromTop + 55 && section.offsetTop + section.offsetHeight > fromTop + 55)
+	    {
+	      link.classList.add("active");
+	    } 
+	    else 
+	    {
+	      link.classList.remove("active");
+	    }
+	  });
+	});
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+	AOS.init({
+		easing: 'ease-out',
+		duration: 1000
+	});
+</script>
+</body>
+</html>
