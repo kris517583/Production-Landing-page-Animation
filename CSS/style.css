@@ -528,6 +528,7 @@ section
 #footer .contact a
 {
 	padding-left: 15px;
+	cursor: pointer;
 }
 
 #footer .copyright
